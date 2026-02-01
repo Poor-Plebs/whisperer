@@ -17,7 +17,7 @@ sudo apt update
 sudo apt install pipewire-bin wl-clipboard ydotool curl python3 python3-evdev
 ```
 
-Note: on some Ubuntu LTS versions, `ydotoold` is missing from the packaged `ydotool`. If so, build from source:
+Note: on some Ubuntu based distributions, `ydotoold` is missing from the packaged `ydotool`. If so, build from source:
 
 ```sh
 sudo apt install git build-essential cmake scdoc libevdev-dev libudev-dev
