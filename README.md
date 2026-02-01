@@ -1,8 +1,8 @@
 # whisperer
 
-Linux dictation tool: press a hotkey (or run a command) to record mic audio, transcribe it with OpenAI, then inject text into the focused app on Wayland.
+Linux push-to-talk dictation: hold a key to record, transcribe with OpenAI, and inject text into the focused app.
 
-This repo starts with a minimal CLI. It supports:
+This repo starts with a minimal CLI. Main flow is push-to-talk, with extra modes for:
 
 - one-shot dictation (fixed duration)
 - looped dictation in chunks (record N seconds, transcribe, inject, repeat)
